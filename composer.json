@@ -1,0 +1,16 @@
+{
+    "name": "spir/filelogreader",
+    "description": "Daily file based log reader",
+    "keywords": ["log", "read", "file", "rotative"],
+    "require": {
+	"php": ">=5.3.0",
+	"psr/log": "1.0.*@dev"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Spir": "src/"
+        }
+    }
+}
